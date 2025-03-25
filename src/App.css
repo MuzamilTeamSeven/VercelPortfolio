@@ -427,6 +427,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .project h2 {
+    font-size: 32px;
+  }
+  .project p {
+    font-size: 16px;
+    width: 75%;
+  }
+}
+
+@media (max-width: 480px) {
+  .project h2 {
+    font-size: 28px;
+  }
+  .project p {
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
