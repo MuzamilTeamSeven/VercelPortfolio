@@ -361,6 +361,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+@media (max-width: 768px) {
+  .skill {
+    padding: 0 15px 30px 15px;
+  }
+  .skill-bx {
+    padding: 40px 30px;
+    border-radius: 32px;
+  }
+  .skill h2 {
+    font-size: 32px;
+  }
+  .skill p {
+    font-size: 16px;
+    margin: 10px 0 40px 0;
+  }
+  .skill-slider {
+    width: 90%;
+  }
+  .skill-slider .item img {
+    width: 40%;
+  }
+  .background-image-left {
+    width: 60%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-bx {
+    padding: 30px 20px;
+  }
+  .skill h2 {
+    font-size: 28px;
+  }
+  .skill p {
+    font-size: 14px;
+  }
+  .skill-slider .item img {
+    width: 35%;
+  }
+  .background-image-left {
+    width: 80%;
+    top: 60%;
+  }
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
