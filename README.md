@@ -6,7 +6,7 @@ To get started with any of the projects in this repository, follow the steps bel
  
 1- **Clone the Repository**
 Clone this repository to your local machine using the following command:
-git clone https://github.com/yourusername/portfolio-projects.git
+git clone https://github.com/MuzamilTeamSeven/VercelPortfolio.git
 
 2- **Navigate to the Project Folder**
 After cloning, navigate to the specific project directory:
